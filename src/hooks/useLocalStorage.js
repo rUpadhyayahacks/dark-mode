@@ -6,9 +6,6 @@ export const useLocalStorage = (key, initialValue) => {
       return item ? JSON.parse(item) : initialValue;
     });
   
-    
-  
-
   const setValue = value => {
     // Save state
     setStoredValue(value);
